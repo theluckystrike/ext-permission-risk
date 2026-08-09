@@ -8,6 +8,13 @@
 // permission-classification table behind the zovo.one Chrome-extension
 // privacy & security scanner at https://zovo.one/.
 //
+// The same three-tier model, with a longer plain-English write-up of what
+// each permission actually exposes, is published at
+// https://zovo.one/permissions - useful when you need to explain a High
+// verdict to a non-engineer. The tiers there are not identical to this
+// table: a few borderline permissions, cookies among them, are placed one
+// tier lower on the site because they are gated by host access in practice.
+//
 // Quick example:
 //
 //	info, ok := extpermissionrisk.RiskOf("cookies")
