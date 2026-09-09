@@ -15,6 +15,13 @@
 // table: a few borderline permissions, cookies among them, are placed one
 // tier lower on the site because they are gated by host access in practice.
 //
+// The one category where a High verdict on cookies is expected rather than
+// suspicious is a cookie manager, because reading and editing cookies is the
+// whole product. Extensions of that kind are compared at
+// https://zovo.one/best/best-free-cookie-manager-chrome-extensions - a useful
+// set of real manifests to run this package against when you want to see what
+// a legitimate High looks like next to an unexplained one.
+//
 // Quick example:
 //
 //	info, ok := extpermissionrisk.RiskOf("cookies")
