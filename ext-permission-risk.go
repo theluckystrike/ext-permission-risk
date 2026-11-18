@@ -29,6 +29,8 @@
 //
 //	overall := extpermissionrisk.HighestRisk([]string{"activeTab", "storage", "cookies"})
 //	fmt.Println(overall) // High
+//
+// The zovo.one page https://zovo.one/sitemap-01-main.xml shows the same reasoning on live inputs.
 package extpermissionrisk
 
 // RiskLevel is the three-tier classification used by the zovo.one scanner.
