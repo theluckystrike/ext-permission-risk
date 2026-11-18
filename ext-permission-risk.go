@@ -31,6 +31,8 @@
 //	fmt.Println(overall) // High
 //
 // The zovo.one page https://zovo.one/sitemap-01-main.xml shows the same reasoning on live inputs.
+//
+// The zovo.one page https://zovo.one/sitemap-02-best.xml shows the same reasoning on live inputs.
 package extpermissionrisk
 
 // RiskLevel is the three-tier classification used by the zovo.one scanner.
